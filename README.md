@@ -1,53 +1,37 @@
-# Next.js & NextUI Template
+# Recipe Sharing Website
 
-This is a template for creating applications using Next.js 14 (app directory) and NextUI (v2).
+A full-stack web application for sharing, discovering, and organizing recipes. Users can sign up, post their own recipes, view, like, comment, and rate other users' recipes. The platform also features admin management and a premium subscription model for exclusive content.
 
-[Try it on CodeSandbox](https://githubbox.com/nextui-org/next-app-template)
+## Features
 
-## Technologies Used
+### User Features
+- **User Authentication**: Sign up, log in, and log out securely.
+- **Post Recipes**: Share your favorite dishes by creating a recipe with a title, description, ingredients, instructions, and an image.
+- **View Recipes**: Browse recipes posted by other users.
+- **Like, Comment, and Rate**: Interact with other recipes by liking, commenting, and giving ratings.
+- **Profile Management**: Update your name and bio on your profile page.
+- **Password Management**: Change your password in the settings.
+- **Premium Content**: Subscribe to a premium plan to access exclusive recipes.
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Tailwind Variants](https://tailwind-variants.org)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
-- [next-themes](https://github.com/pacocoursey/next-themes)
+### Admin Features
+- **User Management**: Admins can view, edit, or delete users, as well as promote or demote users to/from admin roles.
+- **Recipe Management**: Admins can publish or unpublish any recipe.
+- **Premium Content Management**: Admins can control which recipes are available for premium users.
 
-## How to Use
+## Tech Stack
 
-### Use the template with create-next-app
+- **Frontend**: React, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Payments**: Integration with a payment gateway for premium subscriptions
+- **State Management**: Redux or Context API
+- **Real-time Features**: Using TanStack Query for dynamic data handling
+- **File Upload**: Multer (for recipe images)
 
-To create a new project based on this template using `create-next-app`, run the following command:
+## Installation
 
-```bash
-npx create-next-app -e https://github.com/nextui-org/next-app-template
-```
+1. Clone the repository:
 
-### Install dependencies
-
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
-
-```bash
-npm install
-```
-
-### Run the development server
-
-```bash
-npm run dev
-```
-
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
-public-hoist-pattern[]=*@nextui-org/*
-```
-
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
-
-## License
-
-Licensed under the [MIT license](https://github.com/nextui-org/next-app-template/blob/main/LICENSE).
+   ```bash
+   https://github.com/Fahad41816/RecipieNest-client
