@@ -1,5 +1,7 @@
 # Recipe Sharing Website
 
+![Logo](https://i.ibb.co.com/PCRqJ6b/whitelogo.png)
+
 A full-stack web application for sharing, discovering, and organizing recipes. Users can sign up, post their own recipes, view, like, comment, and rate other users' recipes. The platform also features admin management and a premium subscription model for exclusive content.
 
 ## Features
